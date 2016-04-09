@@ -15,6 +15,7 @@ class WorldController: UIViewController {
         self.view = worldView
 
         view.presentWorld(AllTrianglesAreEquilateral())
+        // view.presentWorld(BezierPaths())
     }
 
     override func shouldAutorotate() -> Bool {
